@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-07-15T21:32:11" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '52b6a9f5-068d-4fda-a6dd-0fe59d97cf42' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder' -  (Class)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::BuildEssentials' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::BuildFinishing' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::BuildFloor' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::BuildFrames' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::BuildHouseFoundation' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::BuildRoof' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::BuildWalls' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::CountryHomeBuilder' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::GetHouse' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder::HouseData' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders' -  (Class)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::BuildEssentials' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::BuildFinishing' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::BuildFloor' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::BuildFrames' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::BuildHouseFoundation' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::BuildRoof' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::BuildWalls' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::DreamBuilders' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::GetHouse' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders::HouseData' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Director' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Director::HouseCreator' -  (Class)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Director::HouseCreator::CreateHouse' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Director::HouseCreator::GetHouse' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Director::HouseCreator::HouseBuilder' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Director::HouseCreator::HouseCreator' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Director::HouseCreator::HouseCreator::_HouseBuilder' -  (Parameter)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder' -  (Interface)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::BuildEssentials' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::BuildFinishing' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::BuildFloor' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::BuildFrames' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::BuildHouseFoundation' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::BuildRoof' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::BuildWalls' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder::GetHouse' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House' -  (Class)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::Essentials' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::Finishings' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::FloorType' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::FoundationType' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::Frames' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::House' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::Model' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::RoofType' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::ShowData' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Product::House::WallType' -  (Property)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Program' -  (Class)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Program::Main' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::BuilderDesignPattern::Program::Program' -  (Operation)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;String‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::BuilderDesignPattern::Builder::DreamBuilders to ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder (InterfaceRealization)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::BuilderDesignPattern::Product::House to ModelingProject1::System::Collections::Generic::List&lt;String‎&gt; (Association)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::BuilderDesignPattern::Product::House to ModelingProject1::System::Collections::Generic::List&lt;String‎&gt; (Association)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::BuilderDesignPattern::Builder::CountryHomeBuilder to ModelingProject1::BuilderDesignPattern::Interface::IHouseBuilder (InterfaceRealization)" />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="High" Text="(6) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="High" Text="(2) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-07-15T21:32:18" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

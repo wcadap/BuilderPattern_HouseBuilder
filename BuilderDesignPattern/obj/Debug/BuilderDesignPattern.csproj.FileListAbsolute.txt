@@ -1,0 +1,6 @@
+D:\Blogs\Design Patterns\Builder Design Pattern\BuilderDesignPattern\bin\Debug\BuilderDesignPattern.exe.config
+D:\Blogs\Design Patterns\Builder Design Pattern\BuilderDesignPattern\obj\Debug\BuilderDesignPattern.csprojResolveAssemblyReference.cache
+D:\Blogs\Design Patterns\Builder Design Pattern\BuilderDesignPattern\bin\Debug\BuilderDesignPattern.exe
+D:\Blogs\Design Patterns\Builder Design Pattern\BuilderDesignPattern\bin\Debug\BuilderDesignPattern.pdb
+D:\Blogs\Design Patterns\Builder Design Pattern\BuilderDesignPattern\obj\Debug\BuilderDesignPattern.exe
+D:\Blogs\Design Patterns\Builder Design Pattern\BuilderDesignPattern\obj\Debug\BuilderDesignPattern.pdb

@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="699f540a-0293-4a1b-a784-0826cabdb044"
+  name="Interface"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="44eb7df1-6c53-4d0e-9eb1-e4c5859fcfad"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBuilderDesignPattern.Interface"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="c325c8b4-6985-45f1-ba40-ef7448c6a784"
+        name="IHouseBuilder"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="0a2fe686-6671-4c81-b539-7fa13b1b6b05"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f2a4a73d-e7a6-4037-918a-adb1243726f8"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70073a04-3d58-4781-9b02-b53a056b3bce">
+                <propertyInstance
+                  Id="b2962578-9033-443d-bf1f-d771fdda2d01"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e58b9c35-a4d0-4434-ae77-fd08ffea5a52">
+                <propertyInstance
+                  Id="c571f7aa-bac4-4da5-9a0c-3abbf97fdcee"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ebc9af93-125b-49fc-89f4-0cffc853df9e">
+                <propertyInstance
+                  Id="c481cf6b-b06c-44ce-8d77-868fcefaf4d9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="edfc6150-a309-499e-963f-568b573f765b">
+                <propertyInstance
+                  Id="5e48cd57-c76b-47ce-bff3-1d7dbdb53cf4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="1a3a93c9-41f6-4564-912a-e3843e3dd16f"
+            name="GetHouse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="723221c8-cfe4-4bba-8bec-03c7b276cbc1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DGetHouse"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="df332e9a-f183-4840-b665-755979689858"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c34ed90-1366-4e73-b19d-6390e0f7388d">
+                    <propertyInstance
+                      Id="3ce95b1d-2961-4025-89c7-f273a44fa516"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f6a1cda-5f8b-42e4-a8c7-c055983a0aa2">
+                    <propertyInstance
+                      Id="86d4eef7-1a9e-47aa-b91c-ae7c4cb5930c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61df24d5-1138-4201-b349-bc0af1c8ec8f">
+                    <propertyInstance
+                      Id="8281e9bc-d753-41c1-897f-84540d39e999"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56d5aea7-d9d4-4257-b531-bf2b928148a1">
+                    <propertyInstance
+                      Id="36e9e44f-9493-4de1-b1b0-1297f0ae7c14"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3af071be-0b69-4cfe-9b10-2b155f36f9a9">
+                    <propertyInstance
+                      Id="042aac33-e113-4766-b53c-ca47a1fc2750"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8840462-813b-40f4-a33e-22f8c95c35c7">
+                    <propertyInstance
+                      Id="35a520fd-d17e-483c-a4e0-f68e11a1c17a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b45c9d3d-5a88-447d-a1ce-62a4e7c98692"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="41a7847e-8f89-4390-87e6-ce81b1fa3d6d"
+                      LastKnownName="House"
+                      LastKnownLocation="Package2_2132.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="68d6aa25-e8a7-48b6-ad17-8d1c431a41ad"
+            name="BuildEssentials"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="78c0a894-66d0-45b8-bbab-11d88ca90571"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DBuildEssentials"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d9c75862-c70a-4331-8988-b94f64d4c09e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73f82661-25c1-47c0-9f69-56d340eb22ea">
+                    <propertyInstance
+                      Id="31d26b79-eab3-4d95-b8ea-2a121885c9b6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb9a5ddc-85ba-4915-af15-84d773d0d9a9">
+                    <propertyInstance
+                      Id="d7eefc82-12a7-4350-8f87-bdfa8fabe5e4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38a16630-770e-48d1-a8e0-cdf7e4873aaa">
+                    <propertyInstance
+                      Id="c38918e7-0638-4164-8dbb-97f427433bcc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9cb3055-f2ba-4c04-b5ce-e7fc7e503e1a">
+                    <propertyInstance
+                      Id="594dc24d-4dc9-41c0-8705-879b5ee3c399"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="536e5086-fda0-4f15-a6a1-c1b90ea82d61">
+                    <propertyInstance
+                      Id="bb18ebdb-4449-416f-93d5-dada64241b5e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f114903-8c32-4eba-b7d6-bfb1fcd47d94">
+                    <propertyInstance
+                      Id="6ded9e1f-07dc-466e-be35-1f998d7f2388"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="532a96bf-d4c6-432d-8e44-f83daf2bc2fa"
+            name="BuildFinishing"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="882d3566-9b8f-4e16-80c3-f47f33de6185"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DBuildFinishing"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="722110a4-979b-4ec6-a8e8-7b8414fe9273"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22e9769e-07c7-4e90-953a-6905a83005de">
+                    <propertyInstance
+                      Id="fde5494e-9683-4f61-979c-8e356e3faef6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9188be1-d696-4d58-b6ce-4f7c87696bfd">
+                    <propertyInstance
+                      Id="777ca1ef-70cf-4528-b7e2-25cf234f3292"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc88dd5e-6875-4434-84d1-1e33ab538d94">
+                    <propertyInstance
+                      Id="3b4fca97-256f-4337-94df-4395682e9ed3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec58df33-6da8-4ba4-8e64-b3c81057d9f3">
+                    <propertyInstance
+                      Id="d5232870-2df0-4a69-980d-e3305e06fb94"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="731018a0-e369-41d1-96e9-bda1f7ecabe9">
+                    <propertyInstance
+                      Id="516b5f40-6154-4ba4-b888-303657575127"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a832b6ad-4df9-4299-abe4-91287c3ec4fb">
+                    <propertyInstance
+                      Id="b9c994b2-d6eb-4040-bdca-2a29c81e15e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="bc0a6764-4746-4d44-b1f3-3b166605ec87"
+            name="BuildFloor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1b41c5b7-2e33-4362-be0a-0074b4e0a4cb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DBuildFloor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46cc9125-2888-4819-a745-e60cffdb695a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5430a37-7f66-4e21-a9bf-aff0d8c7de2e">
+                    <propertyInstance
+                      Id="e360752e-40b5-4c68-8885-89256aa6c9a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c3474fb-5342-49d8-9163-12d1ffce7791">
+                    <propertyInstance
+                      Id="2ec20dd6-ef9a-4f44-b27f-ee9a9d370165"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afd941a4-8b52-4d3a-aaf1-e02ac58bdbfd">
+                    <propertyInstance
+                      Id="9a41160a-f0f6-4599-98a8-1d2fc498508b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f54f65d7-6b12-4bd8-a9c9-aa6da3355cec">
+                    <propertyInstance
+                      Id="1bd5803b-a960-4456-9841-f476219b24ee"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="818ab08c-50b0-4317-b61d-c4d5427bf7c9">
+                    <propertyInstance
+                      Id="7f70087e-a645-4839-a613-c1538211f02a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5eb885ee-163a-4291-9650-edea8f0692e8">
+                    <propertyInstance
+                      Id="e2676cff-b102-4ce7-a89f-13ca4597259d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="30c3873b-e813-4c52-be3a-d9a8ff24b1b0"
+            name="BuildFrames"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a41dc78f-1cfe-49fc-9eaf-a5323505b17f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DBuildFrames"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3eaf9894-a55d-4ba0-b990-44652147dbe5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45f0112d-a744-4856-962a-44a774580121">
+                    <propertyInstance
+                      Id="826301f0-db23-49be-99f9-f433987dea46"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f152766-c2bb-4572-8bc6-a0486e57f670">
+                    <propertyInstance
+                      Id="94374019-6b3a-477f-89dc-ff1f6e9bc848"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="117cf846-b2bd-47d6-987a-78ce551ad37f">
+                    <propertyInstance
+                      Id="8f1d6df2-5f26-4f86-ae9d-0b19ef5d264a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd8f5aee-7776-45f5-8b66-aa78e5b08992">
+                    <propertyInstance
+                      Id="7f6967ea-223f-41a3-95fb-e65ee7020e85"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9ed8043-7f03-43fb-9016-0e2239f11571">
+                    <propertyInstance
+                      Id="e9997909-6d7c-4409-9199-28d314946a69"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55ec7172-6c9c-45b4-893d-2e15dae832db">
+                    <propertyInstance
+                      Id="366f5343-e348-4dc4-a7ce-bcb1e78e1ef4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="90d8aaef-e8cd-491d-bbe6-46bef8d9f0f1"
+            name="BuildHouseFoundation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5e980d0-4328-4e1a-9ee5-528573e07d64"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DBuildHouseFoundation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="85e4ba3b-89ca-46ad-b1ce-023eb7ec7d76"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aea4b56a-ef0b-4f15-b940-51d17f431b23">
+                    <propertyInstance
+                      Id="0cd23f84-b583-45ad-a818-6fc176459f37"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb98650e-7914-44e1-a3f8-4cb58ed66878">
+                    <propertyInstance
+                      Id="52548f2b-d340-4951-b22c-cf90390441f0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92ff84ac-cdac-4227-861e-c8c0b3e6d446">
+                    <propertyInstance
+                      Id="d67e817e-dee3-465f-bfab-bb23d7884be1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eaf85b46-dc34-401a-8c69-664f26a6c14c">
+                    <propertyInstance
+                      Id="e366b99a-3465-46bb-82da-b96610427ca9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3568d34-82cb-43c9-930b-81d9970098e0">
+                    <propertyInstance
+                      Id="e131504b-9a5f-425c-bbf3-948c668ddbee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="491d2f10-5e31-4a3c-b705-614967c09bb9">
+                    <propertyInstance
+                      Id="85572d09-2a7e-4873-a1a1-a3b7856957b5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ca63838f-2ee1-4d78-a228-c97f20b4d074"
+            name="BuildRoof"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3245da3c-4dd0-4f33-8466-5d92b14cdd14"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DBuildRoof"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9039c956-d356-47de-92ac-d207c96b6dec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4c4e1cb-cd8e-4a25-b987-bcffc4a2d11c">
+                    <propertyInstance
+                      Id="1758ed48-9922-4b43-bda0-46ed9f4e6a8b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53835c24-3d9c-4b7c-a808-dd733876b6e3">
+                    <propertyInstance
+                      Id="659959b1-4425-4dba-ac17-fd83424048c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="170b4f2d-442f-4147-81b1-72dfc54d5197">
+                    <propertyInstance
+                      Id="9f99b877-e651-4419-9c0e-b2b281c455e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73d84f76-ce94-4c5b-be09-d8fd5e3eecc9">
+                    <propertyInstance
+                      Id="bcccfe59-0d14-436e-a172-7bd5bf7f2295"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0278793-0243-44be-8233-64bdacb7af13">
+                    <propertyInstance
+                      Id="f451a28c-a7c8-4e09-a2cf-3a0fb3b398e3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34f793e7-af41-4aa6-a779-301ef8d5b1dd">
+                    <propertyInstance
+                      Id="997ee416-d43d-4595-b193-7018e81b787f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="7efd6a67-6ca1-4640-91fc-18905732e643"
+            name="BuildWalls"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a20dbf81-90e1-4d9c-b1ca-1f0505af9d61"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FBuilder Design Pattern%2FBuilderDesignPattern%2Fbin%2FDebug%2FBuilderDesignPattern.exe&quot; Namespace%3DBuilderDesignPattern.Interface Type%3DIHouseBuilder Member%3DBuildWalls"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e6b6fcf4-116e-4c2b-9666-158125530c26"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b57b31a-2e30-4f14-a6a0-1073ae8c6eea">
+                    <propertyInstance
+                      Id="0e7e1298-1023-46d7-959e-55e3cf7c7e03"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77498d2e-2f73-4e2f-8cc6-659f15011fe5">
+                    <propertyInstance
+                      Id="270747ff-4dbf-4d66-b762-0f0aea1c835c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dca9f86-3615-48cc-91b0-49992a19c90e">
+                    <propertyInstance
+                      Id="7ceb18ca-baea-4d95-a339-ef49700e5eb6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55f8765b-2592-4a1d-8740-7cc9cd2bd26d">
+                    <propertyInstance
+                      Id="c192c5db-6b77-470b-ab4e-737e06f7a526"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6343d842-d39c-4733-8077-d312cbcdd0bf">
+                    <propertyInstance
+                      Id="e227ec4c-21a2-4645-965a-0996e7899781"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0583a445-7967-4525-b6df-4fae8cf7f02f">
+                    <propertyInstance
+                      Id="f64047e3-b697-454b-afba-97739023e325"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
